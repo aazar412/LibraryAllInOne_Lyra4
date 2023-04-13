@@ -2,9 +2,7 @@ package com.library.steps;
 
 import com.library.utility.ConfigurationReader;
 import com.library.utility.LibraryAPI_Util;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
+import io.cucumber.java.en.*;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
