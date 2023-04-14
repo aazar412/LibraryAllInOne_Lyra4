@@ -9,6 +9,9 @@ import java.util.List;
 
 public class BookPage extends BasePage {
 
+
+
+
     @FindBy(xpath = "//table/tbody/tr")
     public List<WebElement> allRows;
 
